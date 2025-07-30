@@ -1,0 +1,33 @@
+.bottom-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #121212;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  border-top: 1px solid #333;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-icon {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.footer-item:hover .footer-icon {
+  color: #00f0ff;
+  transform: scale(1.1);
+}

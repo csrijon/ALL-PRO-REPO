@@ -1,0 +1,77 @@
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-height: 1050px;
+  height: 100vh;
+  padding: 10px 20px;
+  color: white;
+  background: radial-gradient(circle at center, #071829 0%, #060f1f 40%, #050c1a 80%, #040a16 100%);
+  font-family: 'Segoe UI', sans-serif;
+}
+.left-section {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.left-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.highlight {
+  color: #00f0ff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-btn,
+.resume-btn {
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume-btn {
+  background-color: #00f0ff;
+  border: none;
+  color: #000;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #000;
+}
+
+.resume-btn:hover {
+  background-color: #0cf;
+  transform: translateY(-2px);
+}
+
+.right-section {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  color: #00f0ff;
+  white-space: pre-wrap;
+}
+@media (max-width: 768px){
+    .main-content{
+        flex-direction: column;
+    }
+}

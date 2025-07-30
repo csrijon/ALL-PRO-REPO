@@ -1,13 +1,16 @@
 
 import './App.css'
 import Navbar from './components/Navbar'
-import Btn from './ui/Btn'
+import MainContent from './components/MainContent'
+import BottomNav from './components/BottomNav'
 
 function App() {
 
   return (
     <>
      <Navbar/>
+     <MainContent/>
+     <BottomNav/>
     </>
   )
 }

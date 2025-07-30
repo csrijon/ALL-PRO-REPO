@@ -9,7 +9,7 @@ const Navbar = () => {
    const handeltoggle = () => {
      setdarkmode(!darkmode)
    }
-   
+  
   return (
     <div>
       <nav className="navbar">
