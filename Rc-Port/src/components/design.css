@@ -1,0 +1,84 @@
+/* DesignerIntro.css */
+.designer-intro {
+  min-height: 100vh;
+  background-color: #0e001d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .designer-intro {
+    flex-direction: row;
+  }
+}
+
+.designer-image {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+
+.designer-avatar {
+  width: 240px;
+}
+
+.designer-greeting {
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.text-muted {
+  color: #cccccc;
+}
+
+.highlight {
+  color: #b983ff;
+}
+
+.greeting-arrow {
+  width: 40px;
+  height: 40px;
+  margin-top: 0.5rem;
+}
+
+.designer-text {
+  text-align: center;
+  max-width: 600px;
+}
+
+@media (min-width: 768px) {
+  .designer-text {
+    text-align: left;
+  }
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 0.5rem;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.cover-word {
+  color: #a259ff;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.caption {
+  margin-top: 0.8rem;
+  color: #b0aeb8;
+  font-size: 0.95rem;
+}

@@ -5,10 +5,17 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Button from '@mui/material/Button';
+import image from '../assets/image 1.png'
 
 const MainContent = () => {
   return (
     <div className="main-content css-pe0g6j ">
+       <div className="right-section">
+      <div className="image-section">
+        <img src = {image} alt="" />
+      </div>
+      </div>
       <div className="left-section">
         <h1>
           This is <span className="highlight">Srijon</span>, I'm a<br />
@@ -22,30 +29,13 @@ const MainContent = () => {
           <TwitterIcon/>
         </div>
         <div className="buttons">
-          <button className="contact-btn">Contact Me</button>
+          {/* <button className="contact-btn">Contact Me</button> */}
+        <Button variant="contained">Click Me</Button>
           <button className="resume-btn">Get Resume ⬇</button>
         </div>
       </div>
 
-      {/* <div className="right-section">
-        <pre className="code-block">
-{`const coder = {
-  name: 'Srijon',
-  skills: ['React', 'NextJS', 'Redux', 'Express',
-           'NestJS', 'MySQL', 'MongoDB', 'Docker', 'AWS'],
-  hardWorker: true,
-  quickLearner: true,
-  problemSolver: true,
-  hireable: function() {
-    return (
-      this.hardWorker &&
-      this.problemSolver &&
-      this.skills.length >= 5
-    );
-  }
-};`}
-        </pre>
-      </div> */}
+     
     </div>
   );
 };

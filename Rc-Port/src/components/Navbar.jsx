@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="navright">
           <label className="ui-switch">
             <input type="checkbox" onChange={handeltoggle} />
-            <div className='slider' >{darkmode ? <DarkModeIcon/> : <LightModeIcon/> }</div>
+            <div className='slider' >{darkmode ? <DarkModeIcon className='dark' /> : <LightModeIcon className='Light' /> }</div>
           </label>
         </div>
       </nav>
