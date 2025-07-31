@@ -5,5 +5,17 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
+    flex-wrap: wrap;
     background-image: radial-gradient(at 50% 50%, hsla(210, 100%, 16%, 0.5), hsl(220, 30%, 5%));
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Middle-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
 }
