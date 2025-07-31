@@ -1,10 +1,12 @@
 import React from 'react'
 import leftimage from '../assets/image 1.png'
+import Arrow from '../assets/Arrow.png'
 import './Middle.css'
 
 const Middle = () => {
   return (
     <div className='Middle-section' >
+      <img className='Arrow-image' src= {Arrow} alt="" />
     <div className="left-middle">
       <div className="left-image">
         <img src={leftimage} alt="" />

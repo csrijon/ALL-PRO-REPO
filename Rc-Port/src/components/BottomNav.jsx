@@ -3,6 +3,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import WorkIcon from '@mui/icons-material/Work';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import CodeIcon from '@mui/icons-material/Code';
+// import {Link} from 'react-router'
 import './Footer.css';
 
 const BottomNav = () => {
@@ -20,10 +21,12 @@ const BottomNav = () => {
         <CodeIcon className="footer-icon" />
         <span className="footer-label">Skills</span>
       </div>
+      <a href="">
       <div className="footer-item">
         <ContactMailIcon className="footer-icon" />
         <span className="footer-label">Contact</span>
       </div>
+      </a>
     </footer>
   );
 };
